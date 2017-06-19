@@ -21,7 +21,7 @@ package cat.jhz.cinecat.config;
 
 public class Sources {
 
-    //Enllaços a les dades obertes de gencat
+    //opendata links
     public static final String URL_CINEMES = "http://gencat.cat/llengua/cinema/cinemes.xml";
     public static final String URL_FILMS = "http://gencat.cat/llengua/cinema/provacin.xml";
     public static final String URL_IMGS = "http://gencat.cat/llengua/cinema/";
