@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CineCat</string>
+    <string name="action_settings">Preferències</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="sortir">Sortir</string>
+    <string name="films">Pel·lícules</string>
+    <string name="cines">Cinemes</string>
+    <string name="cicles">Cicles</string>
+    <string name="infocinecat">Sobre CineCat</string>
+
+    <string name="drawer_open">Obrir menu</string>
+    <string name="drawer_close">Tancar menur</string>
+
+    <string name="file_prefs">cinecat_prefs</string>
+    <string name="uptaded_data">actualitzat</string>
+
+    <!-- Menu Drawer -->
+    <string-array name="nav_drawer_items">
+        <item>Pel·lícules</item>
+        <item>Cinemes</item>
+        <item>Cicles</item>
+    </string-array>
+
+    <!-- Menu Drawer icons -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_films</item>
+        <item>@drawable/ic_cines</item>
+        <item>@drawable/ic_cicles</item>
+    </array>
+
+    <string name="dadesFont">Generalitat de Catalunya\nDepartament de Cultura\nPolítica Lingüística</string>
+
+    <string name="actualitzat">Actualització</string>
+    <string name="font_de_les_dades">Font de les dades</string>
+    <string name="title_activity_maps">Mapa</string>
+
+</resources>

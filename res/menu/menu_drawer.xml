@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_films_fragment"
+            android:icon="@drawable/ic_films"
+            android:checked="true"
+            android:title="@string/films" />
+        <item
+            android:id="@+id/nav_cines_fragment"
+            android:icon="@drawable/ic_cines"
+            android:title="@string/cines" />
+        <item
+            android:id="@+id/nav_cicles_fragment"
+            android:icon="@drawable/ic_cicles"
+            android:title="@string/cicles" />
+    </group>
+
+    <item android:title="" >
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_infocinecat"
+                    android:title="@string/infocinecat"
+                    android:icon="@drawable/ic_info" />
+                <item
+                    android:id="@+id/nav_sortir"
+                    android:title="Sortir"
+                    android:icon="@drawable/logout" />
+            </group>
+        </menu>
+    </item>
+</menu>

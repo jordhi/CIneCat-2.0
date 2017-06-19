@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    android:background="@color/primary_dark"
+    tools:context="cat.jhz.cinecat.vistes.fragment_Infocinecat">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_margin="10dp"
+        android:gravity="bottom"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/txvFontDades"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/font_de_les_dades"
+            tools:ignore="NestedWeights"
+            android:gravity="bottom|right"
+            android:textColor="@color/primary_light"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/icons"
+            android:gravity="bottom|left"
+            android:text="@string/dadesFont"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_margin="10dp"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/lblDataActualitzacio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/actualitzat"
+            android:textColor="@color/primary_light"
+            android:textSize="14dp"
+            android:gravity="top|right"
+            tools:ignore="NestedWeights"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:id="@+id/txvInfoDataActualitzacio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/icons"
+            android:textStyle="bold"
+            android:gravity="top|left"
+            android:text="Data 00:00:00" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
